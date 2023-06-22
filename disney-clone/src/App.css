@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: white;
+}
+
 .Logo {
   width: 5rem;
 
@@ -11,5 +15,27 @@
 
 .Nav {
   height: 4.375rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2.25rem;
   background-color: #090b13;
+}
+
+.NavMenu {
+  display: flex;
+}
+
+.NavMenu a {
+  display: flex;
+  align-items: center;
+  padding: 0 .75rem;
+}
+
+.NavMenu a img {
+  height: 1.25rem;
+}
+
+.NavMenu a span {
+  font-size: .8185rem;
+  letter-spacing: 0.08875rem;
 }
