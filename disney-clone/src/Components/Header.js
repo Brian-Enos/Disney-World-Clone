@@ -1,5 +1,7 @@
 import React from 'react';
 import Logo from "../Images/logo.svg";
+import NavImg1 from "../Images/home-icon.svg";
+import SearchIcon from "../Images/search-icon.svg";
 
 function Header() {
   return (
@@ -11,7 +13,18 @@ function Header() {
       {/*  logo ends here */}
 
       {/* navmenu begins here */}
-      <div className='NavMenu'></div>
+      <div className='NavMenu'>
+
+        <a>
+          <img src={NavImg1} />
+          <span>HOME</span>
+        </a>
+
+        <a>
+          <img src={SearchIcon} />
+          <span>SEARCH</span>
+        </a>
+      </div>
       {/* navmenu ends here */}
 
     </div>
