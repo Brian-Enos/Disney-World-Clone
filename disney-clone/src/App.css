@@ -23,11 +23,15 @@ body {
 
 .NavMenu {
   display: flex;
+  flex: 1;
+  margin-left: 1.5625rem;
+  align-items: center;
 }
 
 .NavMenu a {
   display: flex;
   align-items: center;
+  cursor: pointer;
   padding: 0 .75rem;
 }
 
@@ -38,4 +42,11 @@ body {
 .NavMenu a span {
   font-size: .8185rem;
   letter-spacing: 0.08875rem;
+}
+
+.UserImage img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
