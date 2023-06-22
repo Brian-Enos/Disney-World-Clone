@@ -4,6 +4,7 @@ import NavImg1 from "../Images/home-icon.svg";
 import SearchIcon from "../Images/search-icon.svg";
 import WatchListIcon from "../Images/watchlist-icon.svg";
 import OriginalsIcon from "../Images/original-icon.svg";
+import MoviesIcon from "../Images/movie-icon.svg";
 
 function Header() {
   return (
@@ -35,6 +36,11 @@ function Header() {
         <a>
           <img src={OriginalsIcon} />
           <span>ORIGINALS</span>
+        </a>
+
+        <a>
+          <img src={MoviesIcon} />
+          <span>MOVIES</span>
         </a>
       </div>
       {/* navmenu ends here */}
