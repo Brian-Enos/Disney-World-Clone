@@ -5,6 +5,8 @@ import SearchIcon from "../Images/search-icon.svg";
 import WatchListIcon from "../Images/watchlist-icon.svg";
 import OriginalsIcon from "../Images/original-icon.svg";
 import MoviesIcon from "../Images/movie-icon.svg";
+import SeriesIcon from "../Images/series-icon.svg";
+import UserImg from "../Images/User-Image.jpg";
 
 function Header() {
   return (
@@ -42,8 +44,17 @@ function Header() {
           <img src={MoviesIcon} />
           <span>MOVIES</span>
         </a>
+
+        <a>
+          <img src={SeriesIcon} />
+          <span>SERIES</span>
+        </a>
       </div>
       {/* navmenu ends here */}
+
+      <div className="UserImage">
+        <img src={UserImg} />
+      </div>
 
     </div>
   )
