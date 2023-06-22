@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from "../Images/logo.svg";
 import NavImg1 from "../Images/home-icon.svg";
 import SearchIcon from "../Images/search-icon.svg";
+import WatchListIcon from "../Images/watchlist-icon.svg";
 
 function Header() {
   return (
@@ -23,6 +24,11 @@ function Header() {
         <a>
           <img src={SearchIcon} />
           <span>SEARCH</span>
+        </a>
+
+        <a>
+          <img src={WatchListIcon} />
+          <span>WATCHLIST</span>
         </a>
       </div>
       {/* navmenu ends here */}
