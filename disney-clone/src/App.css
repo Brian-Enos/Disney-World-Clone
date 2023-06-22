@@ -42,6 +42,7 @@ body {
 .NavMenu a span {
   font-size: .8185rem;
   letter-spacing: 0.08875rem;
+  position: relative;
 }
 
 .UserImage img {
@@ -49,4 +50,16 @@ body {
   height: 3rem;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.NavMenu a span::after {
+  content: "";
+  height: .125rem;
+  opacity: 0;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  transform: scaleX(0);
+  right: 0;
+  bottom: -.375rem;
 }
