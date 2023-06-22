@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
-.Container {
+.Logo {
+  width: 5rem;
+}
+
+.Nav {
   height: 4.375rem;
   background-color: #090b13;
 }
+
+.NavNenu {}
