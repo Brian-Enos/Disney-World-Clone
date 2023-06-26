@@ -136,3 +136,8 @@ body {
   border: 4px solid rgba(249, 249, 249, 0.8);
   cursor: pointer;
 }
+.ViewerContainer {
+  margin-top: 1.875rem;
+  display: grid;
+  grid-template-columns: repeat();
+}
