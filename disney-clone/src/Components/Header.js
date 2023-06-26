@@ -13,7 +13,7 @@ function Header() {
     <div className="Nav">
       {/* logo begins here */}
       <div className="Logo">
-        <img src={Logo} />
+        <img src={Logo} alt="" />
       </div>
       {/*  logo ends here */}
 
@@ -21,32 +21,32 @@ function Header() {
       <div className='NavMenu'>
 
         <a>
-          <img src={NavImg1} />
+          <img src={NavImg1} alt="" />
           <span>HOME</span>
         </a>
 
         <a>
-          <img src={SearchIcon} />
+          <img src={SearchIcon} alt="" />
           <span>SEARCH</span>
         </a>
 
         <a>
-          <img src={WatchListIcon} />
+          <img src={WatchListIcon} alt="" />
           <span>WATCHLIST</span>
         </a>
 
         <a>
-          <img src={OriginalsIcon} />
+          <img src={OriginalsIcon} alt="" />
           <span>ORIGINALS</span>
         </a>
 
         <a>
-          <img src={MoviesIcon} />
+          <img src={MoviesIcon} alt=""/>
           <span>MOVIES</span>
         </a>
 
         <a>
-          <img src={SeriesIcon} />
+          <img src={SeriesIcon} alt="" />
           <span>SERIES</span>
         </a>
       </div>
