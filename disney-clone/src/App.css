@@ -110,7 +110,7 @@ body {
   overflow: visible;
 }
 
-.Wrap img{
+.Carousel .Wrap img{
   width: 100%;
   height: 100%;
   border-radius: 1rem;
@@ -132,12 +132,26 @@ body {
   z-index: 1;
 }
 
-.Wrap img:hover {
+.Carousel .Wrap img:hover {
   border: 4px solid rgba(249, 249, 249, 0.8);
   cursor: pointer;
 }
 .ViewerContainer {
   margin-top: 1.875rem;
   display: grid;
-  grid-template-columns: repeat();
+  grid-gap: 1.5625rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  padding: 1.875rem 0 1.625rem;
+}
+
+.ViewerContainer .Wrap {
+  border: 3px solid rgba(249, 249, 249, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
+  border-radius: .625rem;
+}
+
+.ViewerContainer .Wrap img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
