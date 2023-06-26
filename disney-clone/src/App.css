@@ -6,6 +6,7 @@
 
 body {
   color: white;
+  background-color: #040714;
 }
 
 .Logo {
@@ -70,4 +71,24 @@ body {
   transform: scaleX(1);
   opacity: 1;
 
+}
+
+.mainContainer {
+  min-height: calc(100vh - 70px);
+  padding: 0 calc(3.5vw + 5px);
+  position: relative;
+}
+.mainContainer::before {
+  content: "";
+  background: url("./Images/home-background.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
