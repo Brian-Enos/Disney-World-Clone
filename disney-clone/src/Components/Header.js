@@ -53,7 +53,7 @@ function Header() {
       {/* navmenu ends here */}
 
       <div className="UserImage">
-        <img src={UserImg} />
+        <img src={UserImg} alt="" />
       </div>
 
     </div>
