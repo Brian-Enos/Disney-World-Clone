@@ -283,3 +283,16 @@ body {
 .GroupWatchButton {
   background-color: rgb(0,0,0);
 }
+
+.SubTitle {
+  color: rgb(249, 249, 249);
+  font-size: 1rem;
+  margin-top: 1.625rem;
+  min-height: 1.25rem;
+}
+.Description {
+  line-height: .0875rem;
+  font-size:1.25rem ;
+  margin-top: 1rem;
+  color: rgb(249, 249, 249);
+}
