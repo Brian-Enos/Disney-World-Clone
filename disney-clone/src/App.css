@@ -191,3 +191,95 @@ body {
   object-fit: cover;
   border-radius: .625rem;
 }
+.DetailContainer {
+  min-height: calc(100vh - 70px);
+  padding: 0 calc(3.5vw + 5px);
+  position: relative;
+}
+.Background {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.8;
+  right: 0;
+  z-index: -1;
+}
+
+.Background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ImageTitle {
+  height: 30vh;
+  width: 35vw;
+  max-width: 200px;
+  min-height: 170px;
+}
+.ImageTitle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Controls {
+  display: flex;
+}
+.Controls span {
+  color:#040714;
+  align-items: center;
+}
+
+.PlayButton,
+.TrailerButton {
+  display: flex;
+  border-radius: .25rem;
+  font-size: 1rem;
+  margin-right: 22px;
+  align-items: center;
+  border: none;
+  padding: 0 1.5rem;
+  letter-spacing: .1125rem;
+  cursor: pointer;
+  height: 56px;
+  background-color: rgb(249, 249, 249);
+}
+
+.PlayButton:hover {
+  background-color: rgb(198, 198, 198);
+}
+.TrailerButton {
+  background: rgb(0,0,0, 0.3);
+  border: 1px solid rgb(249, 249, 249);
+  text-transform: uppercase;
+}
+.TrailerButton:hover {
+  background-color: rgb(198,198,198);
+}
+.TrailerButton:hover span {
+  color: black;
+}
+.TrailerButton span {
+  color:antiquewhite;
+}
+.AddButton,
+.GroupWatchButton {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  background-color: rgb(0,0,0, 0.6);
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+.AddButton span {
+  font-size: 1.875rem;
+}
+.GroupWatchButton {
+  background-color: rgb(0,0,0);
+}
