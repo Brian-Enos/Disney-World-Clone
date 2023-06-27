@@ -29,6 +29,11 @@ function Detail() {
           <img src={GroupImage} alt="" />
         </div>
       </div>
+
+      <div className='SubTitle'>2018 . 7m . Family, Fantacy, Kids, Animation</div>
+      <div className='Description'>
+        A chinese mom who's sad when her grown son leaves home
+      </div>
     </div>
   )
 }
