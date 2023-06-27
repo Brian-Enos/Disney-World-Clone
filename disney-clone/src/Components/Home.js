@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeSlider from "./imgSlider";
 import Viewers from "./Viewers";
+import Movies from "./Movies";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
 
       <HomeSlider />
       <Viewers />
+      <Movies />
 
     </div>
   )
