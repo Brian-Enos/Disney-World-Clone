@@ -2,7 +2,7 @@ import React from 'react';
 import HomeSlider from "./imgSlider";
 import Viewers from "./Viewers";
 import Movies from "./Movies";
-import Detail from "./Detail";
+
 
 function Home() {
   return (
